@@ -24,11 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        shell: bash
-        run: nohup sudo  /mnt/d/shashi/vector/Virtualisation/silkit/sil-kit/build/Release/sil-kit-registry --listen-uri 'silkit://0.0.0.0:8501'
-
+      
       # Runs a single command using the runners shell
       - name: Run a one-line script
         shell: bash
