@@ -27,7 +27,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
       - shell: bash
-      - run: sudo  /mnt/d/shashi/vector/Virtualisation/silkit/sil-kit/build/Release/sil-kit-registry --listen-uri 'silkit://0.0.0.0:8501'
+      - run: nohup sudo  /mnt/d/shashi/vector/Virtualisation/silkit/sil-kit/build/Release/sil-kit-registry --listen-uri 'silkit://0.0.0.0:8501'
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
