@@ -27,7 +27,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         shell: bash
-        run: nohup /mnt/d/shashi/vector/Virtualisation/silkit/sil-kit/build/Release/sil-kit-registry -u silkit://0.0.0.0:8501
+        run: nohup /mnt/d/shashi/vector/Virtualisation/silkit/sil-kit/build/Release/sil-kit-registry -u silkit://0.0.0.0:8501 &
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
